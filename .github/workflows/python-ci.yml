@@ -12,6 +12,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: List repo files (debug)
+        run: |
+          pwd
+          ls
+          echo "----"
+          ls -la
+          echo "----"
+          find . -maxdepth 3 -type d
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
