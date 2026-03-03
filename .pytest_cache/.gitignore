@@ -1,0 +1,11 @@
+# Python cache / compiled files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments (optional but good)
+.venv/
+venv/
+
+# VS Code settings (optional)
+.vscode/
